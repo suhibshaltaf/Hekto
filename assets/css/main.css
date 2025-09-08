@@ -53,4 +53,27 @@ body{
     }
     
 }
+/*End Header*/
+/*start Footer*/
+.footer{
+    background-color: #EEEFFB;
+}
 
+
+.footer .left-side{
+    gap: 35px;
+   align-items: flex-start;
+   margin-top: 95px;
+}.footer a,.address-info{
+    color: #8A8FB9;
+}
+.footer .right-side{
+    width: 60%;
+       margin-top: 95px;
+
+}
+
+.footer .footer-item nav{
+    justify-content: center;
+}
+/*End Footer*/
