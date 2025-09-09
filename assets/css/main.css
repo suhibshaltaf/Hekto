@@ -4,6 +4,7 @@ body{
 .header{
   
     padding: 57px 0;
+
 }
 .header ul{
     display: flex;
@@ -26,6 +27,7 @@ body{
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+    display: flex;
 }
 .search input{
     border: none;
@@ -45,7 +47,7 @@ body{
 }
 
 @media screen and (max-width:1200px){
-.list,.search
+.list,.header .search
 {        display: none;
 }
     .bar{
@@ -57,23 +59,46 @@ body{
 /*start Footer*/
 .footer{
     background-color: #EEEFFB;
+    padding: 50px 0;
+
 }
-
-
+.footer .row{
+    gap: 30px;
+    align-items: flex-start;
+}
 .footer .left-side{
     gap: 35px;
    align-items: flex-start;
-   margin-top: 95px;
-}.footer a,.address-info{
+   width: calc((100% - 30px)/2);
+}
+.footer a,.address-info{
     color: #8A8FB9;
 }
 .footer .right-side{
-    width: 60%;
-       margin-top: 95px;
+   width: calc((100% - 30px)/2);
 
 }
-
-.footer .footer-item nav{
-    justify-content: center;
+.footer .right-side .row{
+    gap: 35px;
 }
+.footer-item{
+    gap: 45px;
+    width: calc((100% - 70px)/3);
+}
+@media  screen and (max-width:992px){
+    .footer .left-side,.footer .right-side{
+        width:100% ;
+    }
+    
+}
+
+@media  screen and (max-width:576px){
+    .footer{
+text-align: center;
+    }
+    .footer-item{
+        width: 100%;
+    }
+}
+
 /*End Footer*/
