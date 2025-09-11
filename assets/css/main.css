@@ -56,6 +56,60 @@ body{
     
 }
 /*End Header*/
+
+/*Start Newslater*/
+.Newslater{
+  background-image: url(./../image/public/newsletter.webp);
+  padding: 175px 0;
+  text-align: center;
+}
+
+.Newslater h2{
+    margin-bottom: 30px;
+    color: #151875;
+    font-size: 50px;
+}
+.shop-btn{
+    transition:all 0.5 ;
+    -webkit-transition:all 0.5 ;
+    -moz-transition:all 0.5 ;
+    -ms-transition:all 0.5 ;
+    -o-transition:all 0.5 ;
+}
+
+.shop-btn:hover{
+    background-color: #0d0e43;
+}
+
+/*End Newslater*/
+/*Start clients*/
+
+.clients{
+    padding: 50px 0;
+}
+.clients .row{
+    flex-wrap: nowrap;
+    gap: 15px ;
+    overflow-x: auto;
+}
+.clients .logo{
+    width: calc((100% - 75px)/6);
+    padding: 0 15px;
+}
+.clients  img{
+width: 150px;
+height: 150px;}
+@media screen and (max-width:900px){
+    .clients .logo{
+        width: calc((100% - 30px)/3);
+    }
+
+    
+}
+
+/*End clients*/
+
+
 /*start Footer*/
 .footer{
     background-color: #EEEFFB;
