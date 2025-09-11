@@ -87,3 +87,28 @@ ul{ list-style-type: none;
 }.gap-6{
     gap: 30px;
 }
+
+.p-1{
+    padding: 5px;
+}
+.p-2{
+    padding: 10px;
+}
+.p-3{
+    padding: 15px;
+}
+.p-4{
+    padding: 20px;
+}
+.p-5{
+    padding: 25px;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
