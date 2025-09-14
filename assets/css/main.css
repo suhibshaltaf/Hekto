@@ -255,14 +255,7 @@ gap: 60px;
 margin-bottom: 20px;
 }
 
-.sale {
-display: none;
-background: #2f1ac4;
-color: #fff;
-padding: 5px 15px;
-transform: rotate(-20deg);
-margin-bottom: 10px;
-}
+
 
 .Leatest:hover .sale {
 display: inline-block;
