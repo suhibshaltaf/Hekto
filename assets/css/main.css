@@ -64,6 +64,7 @@ body{
 }
 .featured-Product h2{
     margin-bottom: 50px;
+    color: #1A0B5B;
    
 }
 .featured-Product .row{
@@ -93,7 +94,7 @@ body{
 .product-icons {
   display: none; 
   justify-content: flex-start;
-  gap: 15px; /* فراغ بين الأيقونات */
+  gap: 15px; 
   margin: 10px 0;
 }
 
@@ -203,16 +204,142 @@ body{
 .rectangles .rectangle.active {
     width: 24px;               
   background-color: var(--primarycolor); 
-}/*End Featured Product*/
+}
+/*End Featured Product*/
 
 /*Start Leatest Products*/
 
-.leatest-Products{
+.Leatest-Products{
     padding: 50px 0;
 
 }
 
-/*End Featured Product*/
+.Leatest-Products h2{
+    margin-bottom: 50px;
+    color: #1A0B5B;
+   
+}
+.Leatest-Products .row{
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 20px;    
+} 
+.sale {
+  display: none;
+  background: #2f1ac4;
+  color: #fff;
+  padding: 5px 15px;
+  transform: rotate(-20deg);
+  margin-bottom: 10px;
+}
+.Leatest:hover .sale {
+  display: inline-block;
+}
+.Leatest-Products.row span{
+    color: #151875;
+}
+.Leatest-Products .active{
+    color: var(--primarycolor);
+    border-bottom: 2px solid var(--primarycolor);
+    padding-bottom: 5px;
+}
+
+.Leatest-Product .Leatest{
+    flex: 1 0 260px;
+    box-shadow: 0px 4px 4px #00000040 ;
+       border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+ .Leatest-Product .Leatest:hover {
+  border: 1px solid #4f00ff;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+.Leatest .img{
+    background-color: #F6F7FB;
+    padding: 30px;
+
+   
+}
+.Leatest-Product .Leatest{
+    flex: 1 0 260px;
+    box-shadow: 0px 4px 4px #00000040 ;
+       border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+ .Leatest-Product .Leatest:hover {
+  border: 1px solid #4f00ff;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+.Leatest .img{
+    background-color: #F6F7FB;
+    padding: 30px;
+
+   
+}
+
+.Leatest-icons {
+  display: none; 
+  justify-content: flex-start;
+  gap: 15px; 
+  margin: 10px 0;
+}
+
+.Leatest:hover .Leatest-icons {
+  display: flex; 
+}
+
+
+.Leatest-icons i {
+  display: flex;
+  justify-content: center;   
+  align-items: center;       
+  width: 30px;
+  height: 30px;
+  font-size: 14px;
+}
+
+.Leatest-icons .fa-shopping-cart {
+  color: #2F1AC4;
+  border-radius: 50%;
+  background-color: #EEEFFB;
+}
+
+.Leatest-icons .fa-heart,
+.Leatest-icons .fa-search {
+  color: #1389FF;
+}
+
+.Leatest img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.Leatest-details h3{
+    color: var(--primarycolor);
+    font-size: 20px;
+}
+
+
+
+.Leatest span{
+    color: #151875;
+   
+}
+
+
+
+.Leatest-info .Oldprice{
+    color: var(--primarycolor);
+    text-decoration: line-through;
+}
+/*End Leatest Products*/
 
 /*Start Newslater*/
 .Newslater{
