@@ -7,7 +7,8 @@
 a{
     text-decoration: none;
 }
-ul{ list-style-type: none;
+ul{
+     list-style-type: none;
 }
 :root{
     --primarycolor:#FB2E86;
@@ -44,6 +45,7 @@ ul{ list-style-type: none;
     width:calc(100% - 320px); 
     margin: auto;
 }
+
 @media screen and (max-width:1400px){
     .container{
         width:calc(100% - 200px); 
