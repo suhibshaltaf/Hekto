@@ -491,7 +491,73 @@ width: 25%;
   }
 }
 /* end shop offer */
+/* start Trending Products */
 
+.Trending-Products {
+    padding: 50px 0;
+
+}   
+.Trending-Products h2 {
+    margin-bottom: 50px;
+    color: #1A0B5B;
+
+}
+/* 
+*
+*
+*/
+
+.Trending-Products .row {
+    justify-content: flex-start;
+    gap: 41px;
+}
+
+.Trending-Products .Trending-product {
+    flex: 1 0 260px;
+    box-shadow: 0px 4px 4px #00000040;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.Trending-Products .Trending-product .img {
+    background-color: #F6F7FB;
+    padding: 30px;
+
+}
+
+
+
+.Trending-Products .Trending-product img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.Trending-Products .Trending-product-details h3 {
+    color: #151875;
+    font-size: 20px;
+
+}
+
+.Trending-Products .price{
+   justify-content: center;
+}
+
+.Trending-Products .price span {
+    color: #151875;
+
+}
+.Trending-product .Trending-product-details  .Oldprice{
+      color: #1518753d;
+    text-decoration: line-through;
+}
+
+
+
+/* End Trending Products*/
 /*Start Newslater*/
 .Newslater {
     background-image: url(./../image/public/newsletter.webp);
