@@ -350,7 +350,7 @@ width: 25%;
 }
 
 .Leatest-Product .Leatest {
-    flex: 1 0 260px;
+    flex: 1 0 250px;
     border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -502,10 +502,6 @@ width: 25%;
     color: #1A0B5B;
 
 }
-/* 
-*
-*
-*/
 
 .Trending-Products .row {
     justify-content: flex-start;
@@ -558,6 +554,110 @@ width: 25%;
 
 
 /* End Trending Products*/
+
+
+/*start category section */
+
+.categories{
+    padding: 50px 0;
+    color: #151875 ;
+}
+.category-card{
+    gap: 8px;
+    padding: 20px;
+}
+
+.circle {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.circle img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  object-fit: none;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.circle .img-hover2 {
+  z-index: 1;
+  left: 0;
+  transition: left 0.3s ease;
+  -webkit-transition: left 0.3s ease;
+  -moz-transition: left 0.3s ease;
+  -ms-transition: left 0.3s ease;
+  -o-transition: left 0.3s ease;
+}
+
+.circle .img-default {
+  z-index: 3;
+  opacity: 1;
+}
+
+.circle .img-hover1 {
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  -webkit-transition: opacity 0.3s ease;
+  -moz-transition: opacity 0.3s ease;
+  -ms-transition: opacity 0.3s ease;
+  -o-transition: opacity 0.3s ease;
+}
+
+.circle:hover .img-hover1 {
+  opacity: 1;
+}
+.circle:hover .img-hover2 {
+  left: 13px;
+  bottom:2px; 
+}
+
+.circle .btn {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #08D15F;
+  color: #fff;
+  font-size: 12px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 3;
+  -webkit-transition: opacity 0.3s ease;
+  -moz-transition: opacity 0.3s ease;
+  -ms-transition: opacity 0.3s ease;
+  -o-transition: opacity 0.3s ease;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.circle:hover .btn {
+  opacity: 1;
+}
+
+
+/*end category section */
 /*Start Newslater*/
 .Newslater {
     background-image: url(./../image/public/newsletter.webp);
